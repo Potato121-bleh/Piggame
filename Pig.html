@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Pig.css" />
+    <title>Pig game</title>
+  </head>
+  <body>
+    <div class="playerhealth-container">
+      <div class="player1-container">
+        <h2 id="title-of-p1">Player 1</h2>
+        <p id="box-score-p1">sss</p>
+      </div>
+      <div class="player2-container">
+        <h2 id="title-of-p2">Player 2</h2>
+        <p id="box-score-p2">sss</p>
+      </div>
+    </div>
+    <div class="mid-game">
+      <label for="user-input-box" id="label-for-input">Insert Roll: </label>
+      <input type="number" id="user-input-box" />
+      <br />
+      <br />
+      <br />
+      <button id="mysubmit">Start game</button>
+      <button id="player1-start-box">Player 1 start</button>
+      <button id="player2-start-box">Player 2 start</button>
+      <div><p id="resultofdice-text"></p></div>
+      <div id="resultofdice-img"></div>
+    </div>
+    <div class="container-of-audio">
+      <button id="background-audio">Audio</button>
+    </div>
+    <script src="Pig.js"></script>
+  </body>
+</html>

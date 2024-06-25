@@ -1,0 +1,87 @@
+Body {
+    font-family: 'Press Start 2P', system-ui;
+    background-image: url(background\ of\ pig\ game.png);
+    background-position:center;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#usersubmit {
+    font-family: 'Press Start 2P', system-ui;
+    font-size:7px;
+}
+.playerhealth-container {
+    display:flex;
+    justify-content:space-between;
+    margin:20px;
+}
+.player1-container #box-score-p1{
+    border:solid;
+    text-align:center;
+    padding:5px;
+    border-radius:10px;
+}
+.player2-container #box-score-p2{
+    border:solid;
+    text-align:center;
+    padding:5px;
+    border-radius:10px;
+}
+.mid-game {
+    text-align:center;
+    margin-top:10%;
+}
+#label-for-input {
+    font-size:25px;
+}
+#user-input-box {
+    height:20px;
+    border-radius:10px;
+    background:transparent;
+    text-align:center;
+    font-size:20px;
+    position:relative;
+    bottom:9px;
+    padding:7px;
+}
+#mysubmit {
+    width:110px;
+    height:40px;
+    border-radius:10px;
+    background:transparent;
+    cursor:pointer;
+}
+#player1-start-box {
+    width:110px;
+    height:40px;
+    border-radius:10px;
+    background:transparent;
+    cursor:pointer;
+}
+#player2-start-box {
+    width:110px;
+    height:40px;
+    border-radius:10px;
+    background:transparent;
+    cursor:pointer;
+}
+.container-of-audio {
+    border:solid;
+    display:inline-block;
+    position:relative;
+    top:250px;
+    margin:30px;
+}
+#background-audio {
+    cursor: pointer;
+    padding:10px;
+}
+#mysubmit:active {
+    box-shadow:2px 3px 8px purple;
+}
+#player1-start-box:active {
+    box-shadow:2px 3px 8px blue;
+}
+#player2-start-box:active {
+    box-shadow:2px 3px 8px hsl(0, 100%, 50%)
+}
