@@ -4,7 +4,7 @@ let button = document.getElementById("congrat-txt");
 
 
 button.onclick = function(){
-    let audio = new Audio("mariosound.mp3");
+    let audio = new Audio("Mariosound.mp3");
     audio.play();
     setTimeout(() => {
         jsConfetti.addConfetti();
